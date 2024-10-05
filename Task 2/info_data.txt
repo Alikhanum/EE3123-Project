@@ -1,0 +1,9 @@
+info for task two:
+
+case14.m: data of IEEE 14-bus tested power system
+case118.m: data of IEEE 118-bus tested power system
+
+Note: the description of the data structure can be found in data_structure.pdf
+
+data_Ybus_case14.mat: the bus admittance matrix of IEEE 14-bus tested power system
+data_Ybus_case118.mat: the bus admittance matrix of IEEE 118-bus tested power system
