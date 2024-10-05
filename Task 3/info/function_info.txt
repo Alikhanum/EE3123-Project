@@ -1,0 +1,35 @@
+% usage
+	add the folder and its subfolders into the MATLAB root path
+
+% ~/sr
+	dependent functions; (you do not need to take care of it)
+	including "MATPOWER 7.1"
+
+% function info
+	check_overload: 
+		-- check the overload lines 
+
+    distri_slack: 
+		-- adjust the subnetwork into power balance
+
+	selec_mpopt: 
+		-- select the mpoptions based on the power flow type, AC or DC
+
+	find_subnetworks: 
+		-- 1. find the subnetworks of the current mpc
+		-- 2. update the single node info into the full mpc
+
+	scale_power_inj:
+		--for the situation when the power flow do not converge
+		--iteratively scale down the load and gen with a constant ratio
+
+	trig_lines:
+		--trig the assigned lines
+
+	update_network:
+		--update the mpc of each cascading iteration timestep 
+        	--no need after the initial failure
+
+	main_toBeCompleted:
+		--run the cascading failure process, 
+		-- !!! need to be completed by yourselves

@@ -1,0 +1,18 @@
+
+
+% mpc
+	MATLAB struct; MATPOWER case format;
+	explained in "data_structure.pdf"
+
+	requirements:
+		iteratively updated in the cascading failure process;
+		by function "update_network";
+		updated the "subnetworks" into it; with the newly calculated power flow;
+
+	struct fields to be added:
+		mpc.outlines:
+			record the outlines at each timestep
+		(note: 
+			feel free to add fields that you need;
+			e.g., mpc.overload_lines; )
+	
